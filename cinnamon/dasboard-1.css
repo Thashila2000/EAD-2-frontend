@@ -19,3 +19,44 @@
   padding-top: 5px;
   padding-bottom: 5px;
 }
+
+.custom-search-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #007BFF; /* Blue background */
+  color: white;
+  border: 1px solid #0056b3;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  width: 100%; /* Ensures it fills its container */
+  max-width: 300px; /* Adjust as needed */
+  
+}
+
+/* Hover Effect for Search Bar */
+.custom-search-input:hover {
+  background-color: #4de838; /* Green on hover */
+  color: #fff;
+}
+
+/* Focus Effect for Search Bar */
+.custom-search-input:focus {
+  background-color: #4de838; /* Green on focus */
+  color: #fff;
+  border: 1px solid #4de838;
+  outline: none; /* Removes default outline */
+}
+
+/* Button Styling */
+.custom-search-button {
+  background-color: #28a745 !important; /* Green background */
+  color: white !important;
+  border: 1px solid #1e7e34 !important;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover Effect for Button */
+.custom-search-button:hover {
+  background-color: #1e7e34 !important; /* Darker green on hover */
+  color: #fff !important;
+}
